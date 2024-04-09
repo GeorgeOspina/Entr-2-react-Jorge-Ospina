@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Caption:wght@400;700&display=swap');
+/* ----- Reset ----- */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "PT Sans Caption", sans-serif;
+  background-color: black;
+  color: rgb(1, 1, 61);
+}
+img {
+  display: inline-block;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+ul {
+  list-style: none;
+}
+input,
+button {
+  display: inline-block;
+  font-family: inherit;
+  cursor: pointer;
+}
+button {
+  background-color: rgba(56, 56, 55, 0.658);
+  color: yellow;
+  cursor: pointer;
+  border: none;
+  padding: 15px 20px;
+  border-radius: 5px;
+  transition: transform .5s;
+}
+button:hover {
+  transform: scale(1.1);
+  transition: transform .5s;
+}
+
+/* ----- app ----- */
+
+.app {
+  background-image: url(../Wallpapercloudsbluesky6.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100hv;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
